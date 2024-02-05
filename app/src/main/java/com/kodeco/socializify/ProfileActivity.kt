@@ -34,9 +34,7 @@
 
 package com.kodeco.socializify
 
-import android.opengl.Visibility
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.kodeco.socializify.databinding.ActivityProfileBinding
 import com.squareup.picasso.Picasso
