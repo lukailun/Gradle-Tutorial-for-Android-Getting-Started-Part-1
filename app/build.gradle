@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace "com.kodeco.socializify"
-    compileSdk 34
+    compileSdk rootProject.compileSdk
 
     defaultConfig {
         applicationId "com.kodeco.socializify"
-        minSdkVersion 23
-        targetSdkVersion 34
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.targetSdk
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
     }
 
     buildFeatures {
@@ -26,6 +26,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ["*.jar"], dir: "libs")
-    implementation "androidx.appcompat:appcompat:1.6.1"
-    implementation "com.google.android.material:material:1.11.0"
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    implementation "com.google.android.material:material:$material"
 }
