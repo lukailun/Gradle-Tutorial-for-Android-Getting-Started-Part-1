@@ -31,4 +31,5 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.bundles.navigation)
+    implementation(libs.picasso)
 }
